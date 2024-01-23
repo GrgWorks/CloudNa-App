@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudNa App", "CloudNa App.csproj", "{1AAB1ECD-BAEC-45F9-B339-1DCC445A63BA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Presentation", "01. Presentation", "{46A1B749-D46F-415D-9EB4-831B18BB2B0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Application", "02. Application", "{285621D0-9565-490F-A288-2C5B96306070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECom.API", "..\ECom.API\ECom.API.csproj", "{51BDE3B3-E737-425F-8AF1-3DBC84A73B0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECom.API", "..\ECom.API\ECom.API.csproj", "{51BDE3B3-E737-425F-8AF1-3DBC84A73B0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECom.Application", "..\ECom.Application\ECom.Application.csproj", "{37FA2829-6428-4E13-A376-8ECC17363703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECom.Application", "..\ECom.Application\ECom.Application.csproj", "{37FA2829-6428-4E13-A376-8ECC17363703}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data", "03. Data", "{1DE26C44-241B-4FBB-9AD7-506A7598D6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECom.Data", "..\ECom.Data\ECom.Data.csproj", "{41BAC07C-0B59-4513-AC3F-E6AD54EA9108}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECom.Data", "..\ECom.Data\ECom.Data.csproj", "{41BAC07C-0B59-4513-AC3F-E6AD54EA9108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1AAB1ECD-BAEC-45F9-B339-1DCC445A63BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1AAB1ECD-BAEC-45F9-B339-1DCC445A63BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1AAB1ECD-BAEC-45F9-B339-1DCC445A63BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1AAB1ECD-BAEC-45F9-B339-1DCC445A63BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51BDE3B3-E737-425F-8AF1-3DBC84A73B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51BDE3B3-E737-425F-8AF1-3DBC84A73B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51BDE3B3-E737-425F-8AF1-3DBC84A73B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
