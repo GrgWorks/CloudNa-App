@@ -10,7 +10,7 @@ namespace ECom.Data.Query
     {
         public static string GETCUSTOMERDETAILS { get =>
                 "SELECT C.FirstName, C.LastName, O.ORDERID AS OrderNumber, O.OrderDate,CONCAT(C.HOUSENO,', ',C.STREET,', ',C.TOWN,', ',C.POSTCODE) AS DeliveryAddress, O.DeliveryExpected, O.ContainsGift " +
-                "FROM CUSTOMERS C WITH(NOLOCK) LEFT JOIN ORDERS O WITH(NOLOCK) ON O.CUSTOMERID = C.CUSTOMERID WHERE C.CUSTOMERID = 1 ORDER BY O.OrderDate DESC";
+                "FROM CUSTOMERS C WITH(NOLOCK) LEFT JOIN ORDERS O WITH(NOLOCK) ON O.CUSTOMERID = C.CUSTOMERID WHERE C.CUSTOMERID = @CustomerID ORDER BY O.OrderDate DESC";
         }
         public static string GETITEMLIST
         {
